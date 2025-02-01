@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinReportWebService", "FinReportWebService.csproj", "{F7267E82-7E7B-45A1-8D2E-50AB214288B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinReportWinFormsClien", "..\FinReportWinFormsClien\FinReportWinFormsClien.csproj", "{BBCFC47C-CC29-4B54-8123-D6B508AFBCC8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F7267E82-7E7B-45A1-8D2E-50AB214288B6} = {F7267E82-7E7B-45A1-8D2E-50AB214288B6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinReportWebServiceTests", "..\FinReportWebServiceTests\FinReportWebServiceTests.csproj", "{73460A28-275B-42E4-966A-3E7638BF3375}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7267E82-7E7B-45A1-8D2E-50AB214288B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7267E82-7E7B-45A1-8D2E-50AB214288B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7267E82-7E7B-45A1-8D2E-50AB214288B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7267E82-7E7B-45A1-8D2E-50AB214288B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBCFC47C-CC29-4B54-8123-D6B508AFBCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBCFC47C-CC29-4B54-8123-D6B508AFBCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBCFC47C-CC29-4B54-8123-D6B508AFBCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBCFC47C-CC29-4B54-8123-D6B508AFBCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73460A28-275B-42E4-966A-3E7638BF3375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73460A28-275B-42E4-966A-3E7638BF3375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73460A28-275B-42E4-966A-3E7638BF3375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73460A28-275B-42E4-966A-3E7638BF3375}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

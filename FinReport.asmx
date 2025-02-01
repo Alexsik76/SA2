@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="FinReportService.cs" Class="FinReportWebService.FinReportService" %>
